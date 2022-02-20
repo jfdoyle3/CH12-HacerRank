@@ -20,7 +20,7 @@ class JumpingOnClouds {
                 engery--;
             if(cloudJump%k==0 && clouds[cloud]==1)
                 engery=engery-2;
-            // System.out.printf("cloud: %d | formula: %d | Clouds: %d | engery: %d\n",cloud, (cloud+k)%numberOfClouds,clouds[cloud],engery);
+            // System.out.printf("cloud: %d | formula: %d | Clouds: %d | energy: %d\n",cloud, (cloud+k)%numberOfClouds,clouds[cloud],energy);
         }
         return engery;
     }
